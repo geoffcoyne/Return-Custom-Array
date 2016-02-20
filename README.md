@@ -3,4 +3,5 @@ This is my first program on github so is kinda sucks and is also useless. I will
 
 If you want to donate 
 Bitcoin: 1FBEktfJ3s7K3j8G2CExCkWJGWc8oJ2cZp
+
 Dogecoin: DG5qwWddK7u7Upqmy31fYEa8xbwPp7sL9J
