@@ -4,14 +4,16 @@
 using namespace std;
 
 //Setting the varibles
-int array1 [5];
-int foo;
+string array1 [50000];
+string foo = "n";
+int y = 1;
 
 //function for returning the array values
-void printarray (int arg[], int length)
+void printarray (string arg[], int length)
 {
-	for (int n = 0; n < length; ++n)
+	for (int n = 1; n < length; ++n)
 	{
+		//If and else statements help with formatting 
 		if (n == 4)
 		{
 			cout << arg[n] << endl;
@@ -27,21 +29,36 @@ void printarray (int arg[], int length)
 int main ()
 {
 	//Starting for loop
-	for (int y = 0; y < 5; ++y)
+	while (1)
 	{
-		cout << "Input a number: ";
+		//retrives string from user
+		cout << "Input a string or type finished to break the loop and print the array: ";
 		cin >> foo;
-		cout << endl;
-		cout << "Ok" << endl;
-		array1 [y] = foo + array1 [y];
+		//checks if user is trying to break 
+		if (foo == "finished") 
+		{
+			break;
+		}
+		//tells the user the string is retrived
+		cout << "Ok \n" << endl;
+		//adds the string to the array and changes the value of y to match the part of the array the program is on
+		array1 [y] = foo;
+		y = y + 1;
 	}
 
-	//returns the values in the array
-	printarray (array1, 5);
+	//changes y to y + 1 if statement is a saftey measure 
+	if (y > 1)
+	{
+		y = y + 1;
+	}
+
+	//returns the values in the array if statement is a saftey measure to prevent crashes 
+	if (y > 1)
+	{
+		printarray (array1, y);
+	}
 
 	//Pauses and ends the program once finished 
 	system("pause");
 	return 0;
 }
-
-
