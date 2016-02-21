@@ -4,6 +4,5 @@ This is my first program on github so is kinda sucks and is also useless. I will
 Planed Updates 
 2d and 1d arrays for now is just 1d 
 
-If you want to donate                                                                                                                   
-Bitcoin: 1FBEktfJ3s7K3j8G2CExCkWJGWc8oJ2cZp                                                                                             
+I like doge coin so if you have one or two you want to send me feel free to do so                                                       
 Dogecoin: DG5qwWddK7u7Upqmy31fYEa8xbwPp7sL9J
