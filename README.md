@@ -3,8 +3,5 @@ This is my first program on github so is kinda sucks and is also useless. I will
 
 Twitter: https://twitter.com/Cheese917
 
-Planed Updates 
-2d and 1d arrays for now is just 1d 
+Planed Update: 2D and 1D arrays for now is just 1D 
 
-I like dogecoin, so if you have one or two you want to send me, feel free to do so                                                      
-Dogecoin: DG5qwWddK7u7Upqmy31fYEa8xbwPp7sL9J
